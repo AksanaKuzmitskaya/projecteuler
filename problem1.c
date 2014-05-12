@@ -24,3 +24,6 @@ int main(void)
     }
     printf ("%d\n", y);
 }
+
+
+// problem_1 ==> 233168
