@@ -4,9 +4,7 @@
  * Aksana Kuzmitskaya
  * aksana.kuzmitskaya@gmail.com
  *
- * For terms in the Fibonacci sequence, 
- * whose values do not exceed four million, 
- * find the sum of the even-valued terms.
+ * For terms in the Fibonacci sequence, whose values do not exceed four million, find the sum of the even-valued terms.
  */
 
 #include <cs50.h>
