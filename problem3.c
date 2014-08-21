@@ -11,19 +11,19 @@
 
 int main(void)
 {   
-    long long number = 600851475143, i = 2, numberc = number;
+    long long number = 600851475143, i = 2;
       
-    while (numberc/i != 1)
+    while (number / i != 1)
     {
-        while (numberc % i == 0)
+        while (number % i == 0)
         {
-            numberc = numberc/i;
+            number = number / i;
         } 
         
         i++;     
     }
   
-    printf ("%lld\n", numberc);
+    printf ("%lld\n", number);
 }
 
 // problem_3 ==> 6857
