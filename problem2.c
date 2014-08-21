@@ -20,11 +20,13 @@ int main(void)
         next = first + second;
         first = second;
         second = next;
+        
         if (second % 2 == 0) 
         {
             count += next; 
         }
     }
+    
     printf ("%d\n", count);
 }
 
