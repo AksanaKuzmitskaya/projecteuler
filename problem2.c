@@ -7,9 +7,8 @@
  * For terms in the Fibonacci sequence, whose values do not exceed four million, find the sum of the even-valued terms.
  */
 
-#include <cs50.h>
 #include <stdio.h>
-#include <math.h>
+
 
 int main(void)
 {
