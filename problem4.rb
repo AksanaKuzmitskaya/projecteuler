@@ -1,5 +1,15 @@
 =begin
+
+problem4.rb
+ 
+Aksana Kuzmitskaya
+aksana.kuzmitskaya@gmail.com
+
+The largest palindrome made from the 
+product of two 3-digit numbers.
+
 =end
+
 def product
   num_one = 999
   num_two = 999
@@ -19,3 +29,5 @@ def product
     product -= 1 
   end
 end
+
+# problem_4 ==> 906609
