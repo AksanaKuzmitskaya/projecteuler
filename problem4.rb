@@ -18,9 +18,10 @@ def product
   while is_palindrome == false
  	  num_one = 999
     if product.to_s.reverse == product.to_s
-  	   while num_one >= 450 
+  	   while num_one >= 450
   	     if product % num_one == 0 && product/num_one <= 999
   	     	 is_palindrome = true
+  	     	 
   	  	    return product
   	     end
   	     num_one -= 1
@@ -30,4 +31,4 @@ def product
   end
 end
 
-# problem_4 ==> 906609
+# problem4 ==> 906609
